@@ -1,0 +1,19 @@
+[theme]
+base = "light"
+primaryColor = "#0e6b5c"
+backgroundColor = "#f3f0e8"
+secondaryBackgroundColor = "#fbfaf6"
+textColor = "#16212e"
+borderColor = "#d9d4c7"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+enableStaticServing = true
+headless = true
+enableXsrfProtection = true
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false
